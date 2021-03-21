@@ -1,10 +1,12 @@
-package com.example.madlevel4task1
+package com.example.madlevel4task1.ui
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.madlevel4task1.R
 import com.example.madlevel4task1.databinding.ItemProductBinding
+import com.example.madlevel4task1.model.Product
 
 class ShoppingListAdapter(private val products: List<Product>) : RecyclerView.Adapter<ShoppingListAdapter.ViewHolder>() {
 
